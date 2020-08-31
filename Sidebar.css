@@ -1,0 +1,50 @@
+.sidebar {
+  box-shadow: 0px 5px 29px -7px rgba(0, 0, 0, 0.75);
+  flex: 0.29;
+  /* min-width: 250px; */
+  margin-top: 20px;
+  padding-top:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size:10px !important;
+  border-radius: 24px;
+  height: 90vh;
+}
+
+.sidebar__twitterIcon {
+  color: var(--twitter-color);
+  font-size: 30px !important;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  maring-right:50px;
+}
+
+.sidebar__tweet {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}
+
+
+
+.maindiv{
+  display: flex;
+  align-content: center;
+}
+.main{
+  font-family: Chelsea Market;
+  margin-left:13px;
+  margin-top:2px;
+  color:rgb(255, 145, 0);
+}
+.main:hover{
+  text-shadow: 1px 3px 5px rgb(48, 151, 235);
+  cursor: pointer;
+  
+  
+}
